@@ -8,12 +8,12 @@
             "type": "shell",
             "command": "",
             "args": [
-                "${workspaceFolder}\\.vscode\\scripts\\compile",
+                "${workspaceFolder}/.vscode/scripts/compile",
                 "${fileDirname}",
                 "${fileBasenameNoExtension}",
                 "${fileExtname}",
                 "&&",
-                "${workspaceFolder}\\.vscode\\scripts\\run",
+                "${workspaceFolder}/.vscode/scripts/run",
                 "${fileDirname}",
                 "${fileBasenameNoExtension}",
                 "${fileExtname}",
@@ -28,7 +28,7 @@
             "type": "shell",
             "command": "",
             "args": [
-                "${workspaceFolder}\\.vscode\\scripts\\run",
+                "${workspaceFolder}/.vscode/scripts/run",
                 "${fileDirname}",
                 "${fileBasenameNoExtension}",
                 "${fileExtname}",
@@ -45,7 +45,7 @@
             "args": [
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}",
+                "${fileDirname}/${fileBasenameNoExtension}",
                 "-g3",
                 "-Wall",
                 "-Wextra",
