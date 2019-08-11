@@ -20,7 +20,6 @@ cd .install
 ```
 
 Here are some items need to be modified before using it:
-+ Line 17 of `./c_cpp_properties.json` (Full path of the C/C++ compiler)
 + Line 17 and 18 of `./c_cpp_properties.json` (Version of the C/C++ language standard to use for intellisense)
 
 You can also change other things to make it adapt to your personal habits.
