@@ -16,14 +16,13 @@ namespace Dango
 			tmp[i]=argv[i];
 		if(tmp[3]==".py")cmd="python3 "+tmp[1]+"/"+tmp[2]+tmp[3];
 		else cmd=tmp[1]+"/"+tmp[2];
-		cout<<"----Programe Started----"<<endl;
 		timeval start,end;
-    	gettimeofday(&start,NULL);
+		cout<<"----Programe Started----"<<endl;
+		gettimeofday(&start,NULL);
 		long long res=system(cmd.c_str());
-    	gettimeofday(&end,NULL);
+		gettimeofday(&end,NULL);
 		cout<<endl;
-		double delta = (end.tv_sec-start.tv_sec) + 
-                    (end.tv_usec-start.tv_usec)/1000000.0;
+		double delta=(end.tv_sec-start.tv_sec)+(end.tv_usec-start.tv_usec)/1000000.0;
 		if(res)
 		{
 			cout<<"Runtime Error with exit code "<<res<<endl;
