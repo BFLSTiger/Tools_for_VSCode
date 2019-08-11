@@ -17,7 +17,7 @@ namespace Dango
 		else cmd=tmp[1]+"/"+tmp[2];
 		cout<<"----Programe Started----"<<endl;
 		double start=clock();
-		int res=system(cmd.c_str());
+		long long res=system(cmd.c_str());
 		double end=clock();
 		cout<<endl;
 		if(res)
