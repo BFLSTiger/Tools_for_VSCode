@@ -13,7 +13,7 @@ namespace Dango
 	{
 		for(int i=0;i<argc;i++)
 			tmp[i]=argv[i];
-		if(tmp[3]==".py")cmd="python "+tmp[1]+"/"+tmp[2]+tmp[3];
+		if(tmp[3]==".py")cmd="python3 "+tmp[1]+"/"+tmp[2]+tmp[3];
 		else cmd=tmp[1]+"/"+tmp[2];
 		cout<<"----Programe Started----"<<endl;
 		double start=clock();
@@ -25,7 +25,7 @@ namespace Dango
 			cout<<"Runtime Error with exit code "<<res<<endl;
 			return 0;
 		}
-		else cout<<"Time Used: "<<(end-start)/1000<<"s"<<endl;
+		else cout<<"Time Used: "<<(end-start)/1000000<<"s"<<endl;
 		return 0;
 	}
 }
