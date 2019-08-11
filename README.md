@@ -16,7 +16,7 @@ git clone -b VSCode-Configuration-File-for-Ubuntu https://github.com/BFLSTiger/T
 Then, open terminal in the directory `.vscode` and execute the following command to install the scripts.
 ```sh
 cd .install
-install.sh
+./install.sh
 ```
 
 Here are some items need to be modified before using it:
