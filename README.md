@@ -1,5 +1,5 @@
 # Summary
-This is my configuation files of VSCode for Windows.
+This is my configuation files of VSCode for Ubuntu.
 It has already supported `C++` and `Python`.
 
 #Requirs
