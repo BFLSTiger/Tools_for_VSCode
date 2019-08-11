@@ -6,9 +6,8 @@
         {
             "label": "Compile & Run",
             "type": "shell",
-            "command": "",
+            "command": "${workspaceFolder}/.vscode/scripts/compile",
             "args": [
-                "${workspaceFolder}/.vscode/scripts/compile",
                 "${fileDirname}",
                 "${fileBasenameNoExtension}",
                 "${fileExtname}",
@@ -26,9 +25,8 @@
         {
             "label": "Run",
             "type": "shell",
-            "command": "",
+            "command": "${workspaceFolder}/.vscode/scripts/run",
             "args": [
-                "${workspaceFolder}/.vscode/scripts/run",
                 "${fileDirname}",
                 "${fileBasenameNoExtension}",
                 "${fileExtname}",
