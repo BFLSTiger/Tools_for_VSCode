@@ -11,7 +11,7 @@ It has already supported `C++` and `Python`.
 # Setup
 To begin with, open your workspace folder and clone this to your computer.
 ```sh
-git clone https://github.com/BFLSTiger/Tools_for_VSCode.git ./.vscode
+git clone -b VSCode-Configuration-File-for-Ubuntu https://github.com/BFLSTiger/Tools_for_VSCode.git ./.vscode
 ```
 Then, open terminal in the directory `.vscode` and execute the following command to install the scripts.
 ```sh
