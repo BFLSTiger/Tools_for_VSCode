@@ -14,8 +14,8 @@ namespace Dango
 	{
 		for(int i=0;i<argc;i++)
 			tmp[i]=argv[i];
-		if(tmp[3]==".py")cmd="python3 "+tmp[1]+"/"+tmp[2]+tmp[3];
-		else cmd=tmp[1]+"/"+tmp[2];
+		if(tmp[3]==".py")cmd="cd"+tmp[1]+" && python3 "+tmp[2]+tmp[3];
+		else cmd="cd "+tmp[1]+" && ./"+tmp[2];
 		timeval start,end;
 		cout<<"----Programe Started----"<<endl;
 		gettimeofday(&start,NULL);
