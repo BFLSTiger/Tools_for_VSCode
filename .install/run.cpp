@@ -13,8 +13,8 @@ namespace Dango
 	{
 		for(int i=0;i<argc;i++)
 			tmp[i]=argv[i];
-		if(tmp[3]==".py")cmd="python "+tmp[1]+"/"+tmp[2]+tmp[3];
-		else cmd=tmp[1]+"/"+tmp[2];
+		if(tmp[3]==".py")cmd="cd"+tmp[1]+" && python "+tmp[2]+tmp[3];
+		else cmd="cd "+tmp[1]+" && "+tmp[2];
 		cout<<"----Programe Started----"<<endl;
 		double start=clock();
 		int res=system(cmd.c_str());
