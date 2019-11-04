@@ -16,7 +16,7 @@ namespace Dango
 		if(tmp[3]==".py")return 0;
 		if(tmp[3]!=".cpp"){cout<<"Not support this kind of language."<<endl;return -1;}
 		getline(cin,opt);
-		cmd="g++ "+tmp[1]+"/"+tmp[2]+tmp[3]+" -o "+tmp[1]+"/"+tmp[2]+" "+opt;
+		cmd="g++ \""+tmp[1]+"/"+tmp[2]+tmp[3]+"\" -o \""+tmp[1]+"/"+tmp[2]+"\" "+opt;
 		if(system(cmd.c_str())){cout<<"Compile Error."<<endl;return -1;}
 		cout<<"----Compile Success----"<<endl;
 		return 0;
