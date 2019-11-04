@@ -8,6 +8,5 @@ cd ../ && mkdir scripts
 cd .install
 move compile.exe ../scripts/
 move run.exe ../scripts/
-type compile_options > ../scripts/compile_options
 echo Installed successfully!
 pause

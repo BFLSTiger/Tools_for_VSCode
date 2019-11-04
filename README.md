@@ -28,7 +28,7 @@ You can also change other things to make it adapt to your personal habits.
 # Functions
 ## Compile & Run (default 'build' task)
 You can use it to compile your source code and execute it.
-If you want to change the compile options, you can edit the file `./scripts/compile_options`.
+If you want to change the compile options, you can edit the first line of the file `./.install/compile.cpp` and run `install.bat` again.
 
 ## Run (default 'test' task)
 You can use it to execute your code if you have compiled it before.
