@@ -6,5 +6,4 @@ echo Moving the files
 mkdir ../scripts
 mv compile ../scripts/
 mv run ../scripts/
-cat compile_options > ../scripts/compile_options
 echo Installed successfully
