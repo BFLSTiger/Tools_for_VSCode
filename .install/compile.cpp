@@ -1,4 +1,4 @@
-#define opt "-Wl,--stack=1024000000 -O2 -std=c++11"
+#define opt "-Wl,--stack=1024000000 -O2 -std=c++11 -Wall -Wextra"
 #include<cstdio>
 #include<iostream>
 #include<algorithm>
