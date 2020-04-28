@@ -13,7 +13,7 @@
             "defines": [
                 "__LOCAL_DEBUG__"
             ],
-            "compilerPath": "/usr/bin/g++-7",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",
             "cppStandard": "c++11",
             "intelliSenseMode": "gcc-x64"
