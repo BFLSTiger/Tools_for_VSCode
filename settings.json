@@ -29,7 +29,8 @@
         "limits": "cpp",
         "complex": "cpp",
         "system_error": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "algorithm": "cpp"
     },
     "editor.fontLigatures": true,
     "editor.mouseWheelZoom": true,
