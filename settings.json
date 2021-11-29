@@ -30,7 +30,8 @@
         "complex": "cpp",
         "system_error": "cpp",
         "cmath": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "random": "cpp"
     },
     "editor.fontLigatures": true,
     "editor.mouseWheelZoom": true,
