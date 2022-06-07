@@ -36,5 +36,5 @@
     "C_Cpp.errorSquiggles": "Enabled",
     "C_Cpp.intelliSenseCacheSize": 0,
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": false
 }
