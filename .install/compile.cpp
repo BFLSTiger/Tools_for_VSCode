@@ -17,7 +17,7 @@ namespace Dango
 		if(tmp[3]==".py"||tmp[3]==".bat")return 0;
 		if(tmp[3]!=".cpp"&&tmp[3]!=".c"){cout<<"Not support this kind of language."<<endl;return -1;}
 		if(tmp[3]==".cpp")cmd="g++ \""+tmp[1]+"/"+tmp[2]+tmp[3]+"\" -o \""+tmp[1]+"/"+tmp[2]+"\" "+opt;
-		else cmd="gcc \""+tmp[1]+"/"+tmp[2]+tmp[3]+"\" -o \""+tmp[1]+"/"+tmp[2]+"\" "+opt;
+		else cmd="gcc \""+tmp[1]+"/"+tmp[2]+tmp[3]+"\" -o \""+tmp[1]+"/"+tmp[2]+"\"";
 		if(system(cmd.c_str())){cout<<"Compile Error."<<endl;return -1;}
 		cout<<"----Compile Success----"<<endl;
 		return 0;
