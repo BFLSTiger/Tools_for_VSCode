@@ -75,5 +75,6 @@
     "editor.fontLigatures": true,
     "editor.mouseWheelZoom": true,
     "C_Cpp.errorSquiggles": "Enabled",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "C_Cpp.intelliSenseCacheSize": 0
 }
