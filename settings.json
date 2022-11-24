@@ -76,5 +76,6 @@
     "editor.mouseWheelZoom": true,
     "C_Cpp.errorSquiggles": "Enabled",
     "python.linting.pylintEnabled": true,
-    "C_Cpp.intelliSenseCacheSize": 0
+    "C_Cpp.intelliSenseCacheSize": 0,
+    "python.analysis.typeCheckingMode": "basic"
 }
