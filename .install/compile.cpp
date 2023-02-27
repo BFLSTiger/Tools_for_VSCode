@@ -14,7 +14,7 @@ namespace Dango
 	{
 		for(int i=0;i<argc;i++)
 			tmp[i]=argv[i];
-		if(tmp[3]==".py"||tmp[3]==".bat")return 0;
+		if(tmp[3]==".py"||tmp[3]==".bat"||tmp[3]==".java")return 0;
 		if(tmp[3]!=".cpp"&&tmp[3]!=".c"){cout<<"Not support this kind of language."<<endl;return -1;}
 		if(tmp[3]==".cpp")cmd="g++ \""+tmp[1]+"/"+tmp[2]+tmp[3]+"\" -o \""+tmp[1]+"/"+tmp[2]+"\" "+opt;
 		else cmd="gcc \""+tmp[1]+"/"+tmp[2]+tmp[3]+"\" -o \""+tmp[1]+"/"+tmp[2]+"\"";
