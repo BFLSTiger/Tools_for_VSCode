@@ -14,7 +14,7 @@ namespace Dango
 		for(int i=0;i<argc;i++)
 			tmp[i]=argv[i];
 		if(tmp[3]==".py")cmd="cd /D "+tmp[1]+" && python "+tmp[2]+tmp[3];
-		else if(tmp[3]==".java")cmd="cd /D "+tmp[1]+" && java "+tmp[2]+tmp[3];
+		else if(tmp[3]==".java")cmd="cd /D "+tmp[1]+" && java "+tmp[2];
 		else if (tmp[3]==".bat")cmd="cd /D "+tmp[1]+" && "+tmp[2]+tmp[3];
 		else cmd="cd /D "+tmp[1]+" && "+tmp[2];
 		cout<<"----Programe Started----"<<endl;
