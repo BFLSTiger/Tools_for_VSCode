@@ -4,9 +4,8 @@ It has already supported `C++` and `Python`.
 
 # Requirs
 + Before you use this, you must install `g++`.
-+ The following extensions for VSCode are recommended:
++ The following extension for VSCode are recommended:
     + `C/C++`(ms-vscode.cpptools)
-    + `C++ Intellisense`(austin.code-gnu-global)
 
 # Setup
 To begin with, open your workspace folder and clone this to your computer.
