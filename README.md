@@ -2,7 +2,7 @@
 This is my configuation files of VSCode for Windows.
 It has already supported `C++` and `Python`.
 
-# Requirs
+# Requirements
 + Before you use this, you must install `g++`.
 + The following extension for VSCode are recommended:
     + `C/C++`(ms-vscode.cpptools)

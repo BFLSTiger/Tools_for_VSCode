@@ -78,5 +78,8 @@
     "editor.mouseWheelZoom": true,
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.intelliSenseCacheSize": 0,
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    }
 }
