@@ -81,5 +81,6 @@
     "python.analysis.typeCheckingMode": "basic",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
-    }
+    },
+    "python.analysis.autoImportCompletions": false
 }

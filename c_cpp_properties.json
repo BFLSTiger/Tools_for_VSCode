@@ -13,7 +13,7 @@
             "defines": [
                 "__LOCAL_DEBUG__"
             ],
-            "compilerPath": "D:\\Program Files\\MinGW64\\mingw64\\bin\\g++.exe",
+            "compilerPath": "D:\\Program Files\\mingw64\\bin\\g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++11",
             "intelliSenseMode": "gcc-x64"
