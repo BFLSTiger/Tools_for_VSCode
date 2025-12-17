@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Python Debug",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${fileDirname}",
             "stopOnEntry": true,
@@ -19,7 +19,7 @@
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "internalConsoleOptions": "neverOpen",
             "MIMode": "gdb",
             "miDebuggerPath": "gdb.exe",
